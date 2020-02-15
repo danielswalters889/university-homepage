@@ -22,10 +22,7 @@ section p:nth-of-type(1), p:nth-of-type(3) {
 }
 
 main{
-  line-height: 1.5;
-  font-size: 0.8rem;
-  letter-spacing: 0.5px;
-  word-spacing: 1.5px;
+
 }
 
 aside {
@@ -53,4 +50,43 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
   letter-spacing: 0.5px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  word-spacing: 1.5px;
+}
+
+a:link {
+  outline: none;
+  color: rgb(170, 102, 102);
+}
+
+a:visited {
+  outline: none;
+  color: rgb(120, 72, 72);
+}
+
+a:focus {
+  color: rgb(185, 166, 166);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(247, 148, 148);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(120, 72, 72);
+  background: rgb(247, 223, 223);
+}
+li {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  word-spacing: 1.5px;
+  list-style: square;
 }
